@@ -1,0 +1,180 @@
+컬럼명,타입,범주형 여부,범주 갯수,길이,PK,NN,국문 설명
+bidntceno,text,N,,,Y,Y,입찰공고번호
+bidntceord,text,Y,,,Y,Y,입찰공고차수
+rentceyn,character(1),Y,2,,,,재공고여부
+rgsttynm,text,Y,1,,,,등록유형명
+ntcekindnm,text,N,,,,,공고종류명
+intrbidyn,character(1),Y,2,,,,국제입찰여부
+bidntcedt,timestamp without time zone,,,,,,입찰공고일시
+refno,text,N,,,,,참조번호
+bidntcenm,text,N,,,,,입찰공고명
+ntceinsttcd,text,N,,,,,공고기관코드
+ntceinsttnm,text,N,,,,,공고기관명
+dminsttcd,text,Y,29910,,,,수요기관코드
+dminsttnm,text,Y,,,,,수요기관명
+bidmethdnm,text,Y,8,,,,입찰방식명
+cntrctcnclsmthdnm,text,Y,12,,,,계약체결방법명
+ntceinsttofclnm,text,N,,,,,공고기관담당자명
+ntceinsttofcltelno,text,N,,,,,공고기관담당자전화번호
+ntceinsttofclemailadrs,text,N,,,,,공고기관담당자이메일주소
+exctvnm,text,N,,,,,집행관명
+bidqlfctrgstdt,timestamp without time zone,,,,,,입찰참가자격등록마감일시
+cmmnspldmdagrmntrcptdocmethd,text,Y,13,,,,공동수급협정서접수방식
+cmmnspldmdagrmntclsedt,timestamp without time zone,,,,,,공동수급협정마감일시
+cmmnspldmdcorprgnlmtyn,text,N,,,,,공동수급업체지역제한여부
+bidbegindt,timestamp without time zone,,,,,,입찰개시일시
+bidclsedt,timestamp without time zone,,,,,,입찰마감일시
+opengdt,timestamp without time zone,,,,,,개찰일시
+ntcespecdocurl1,text,N,,,,,공고규격서URL1
+ntcespecdocurl2,text,N,,,,,공고규격서URL2
+ntcespecdocurl3,text,N,,,,,공고규격서URL3
+ntcespecdocurl4,text,N,,,,,공고규격서URL4
+ntcespecdocurl5,text,N,,,,,공고규격서URL5
+ntcespecdocurl6,text,N,,,,,공고규격서URL6
+ntcespecdocurl7,text,N,,,,,공고규격서URL7
+ntcespecdocurl8,text,N,,,,,공고규격서URL8
+ntcespecdocurl9,text,N,,,,,공고규격서URL9
+ntcespecdocurl10,text,N,,,,,공고규격서URL10
+ntcespecfilenm1,text,N,,,,,공고규격파일명1
+ntcespecfilenm2,text,N,,,,,공고규격파일명2
+ntcespecfilenm3,text,N,,,,,공고규격파일명3
+ntcespecfilenm4,text,N,,,,,공고규격파일명4
+ntcespecfilenm5,text,N,,,,,공고규격파일명5
+ntcespecfilenm6,text,N,,,,,공고규격파일명6
+ntcespecfilenm7,text,N,,,,,공고규격파일명7
+ntcespecfilenm8,text,N,,,,,공고규격파일명8
+ntcespecfilenm9,text,N,,,,,공고규격파일명9
+ntcespecfilenm10,text,N,,,,,공고규격파일명10
+rbidpermsnyn,character(1),Y,2,,,,재입찰허용여부
+pqappldocrcptmthdnm,text,Y,2,,,,PQ신청서접수방법명
+pqappldocrcptdt,timestamp without time zone,,,,,,PQ신청서접수일시
+arsltappldocrcptmthdnm,text,Y,3,,,,실적신청서접수방법명
+arsltappldocrcptdt,timestamp without time zone,,,,,,실적신청서접수일시
+jntcontrctdutyrgnnm1,text,Y,30,,,,공동도급의무지역명1
+jntcontrctdutyrgnnm2,text,Y,26,,,,공동도급의무지역명2
+jntcontrctdutyrgnnm3,text,Y,21,,,,공동도급의무지역명3
+rgndutyjntcontrctrt,text,Y,50,,,,지역의무공동도급비율
+dtlsbidyn,character(1),Y,2,,,,내역입찰여부
+bidprtcptlmtyn,character(1),Y,2,,,,입찰참가제한여부
+prearngprcedcsnmthdnm,text,Y,3,,,,예정가격결정방법명
+totprdprcnum,integer,,,,,,총예가건수
+drwtprdprcnum,integer,,,,,,추첨예가건수
+bdgtamt,bigint,,,,,,예산금액
+presmptprce,bigint,,,,,,추정가격
+govsplyamt,bigint,,,,,,관급금액
+aplbsscntnts,text,Y,3,,,,적용기준내용
+indstrytyevlrt,numeric,,,,,,업종평가비율
+maincnsttynm,text,Y,238,,,,주공종명
+maincnsttycnstwkprearngamt,numeric,,,,,,주공종공사예정금액
+incntvrgnnm1,text,Y,20,,,,가산지역명1
+incntvrgnnm2,text,Y,20,,,,가산지역명2
+incntvrgnnm3,text,Y,18,,,,가산지역명3
+incntvrgnnm4,text,Y,17,,,,가산지역명4
+opengplce,text,N,,,,,개찰장소
+dcmtgoprtndt,timestamp without time zone,,,,,,설명회실시일시
+dcmtgoprtnplce,text,N,,,,,설명회실시장소
+contrctrcnstrtngovsplymtrlamt,bigint,,,,,,도급자설치관급자재금액
+govcnstrtngovsplymtrlamt,bigint,,,,,,관급자설치관급자재금액
+bidntcedtlurl,text,N,,,,,입찰공고상세URL
+bidntceurl,text,N,,,,,입찰공고URL
+bidprtcptfeepaymntyn,character(1),Y,2,,,,입찰참가수수료납부여부
+bidprtcptfee,integer,,,,,,입찰참가수수료
+bidgrntymnypaymntyn,character(1),Y,2,,,,입찰보증금납부여부
+crdtrnm,text,N,,,,,채권자명
+cmmnspldmdcnum,text,Y,15,,,,공동수급업체수
+untyntceno,text,N,,,,,통합공고번호
+sptdscrptdocurl1,text,N,,,,,현장설명서URL1
+sptdscrptdocurl2,text,N,,,,,현장설명서URL2
+sptdscrptdocurl3,text,N,,,,,현장설명서URL3
+sptdscrptdocurl4,text,N,,,,,현장설명서URL4
+sptdscrptdocurl5,text,N,,,,,현장설명서URL5
+subsicnsttynm1,text,Y,51,,,,부대공종명1
+subsicnsttynm2,text,Y,23,,,,부대공종명2
+subsicnsttynm3,text,Y,14,,,,부대공종명3
+subsicnsttynm4,text,Y,2,,,,부대공종명4
+subsicnsttynm5,text,N,,,,,부대공종명5
+subsicnsttynm6,text,N,,,,,부대공종명6
+subsicnsttynm7,text,N,,,,,부대공종명7
+subsicnsttynm8,text,N,,,,,부대공종명8
+subsicnsttynm9,text,N,,,,,부대공종명9
+subsicnsttyindstrytyevlrt1,double precision,,,,,,부공종업종평가비율1
+subsicnsttyindstrytyevlrt2,double precision,,,,,,부공종업종평가비율2
+subsicnsttyindstrytyevlrt3,double precision,,,,,,부공종업종평가비율3
+subsicnsttyindstrytyevlrt4,double precision,,,,,,부공종업종평가비율4
+subsicnsttyindstrytyevlrt5,double precision,,,,,,부공종업종평가비율5
+subsicnsttyindstrytyevlrt6,text,N,,,,,부공종업종평가비율6
+subsicnsttyindstrytyevlrt7,text,N,,,,,부공종업종평가비율7
+subsicnsttyindstrytyevlrt8,text,N,,,,,부공종업종평가비율8
+subsicnsttyindstrytyevlrt9,text,N,,,,,부공종업종평가비율9
+cmmnspldmdmethdcd,text,Y,4,,,,공동수급방식코드
+cmmnspldmdmethdnm,text,Y,13,,,,공동수급방식명
+stdntcedocurl,text,N,,,,,표준공고서URL
+brffcbidprcpermsnyn,character(1),Y,2,,,,지사투찰허용여부
+cnsttyaccotshreratelist,text,Y,6418,,,,공종별지분율목록
+cnstrtnabltyevlamtlist,text,Y,1346,,,,시공능력평가금액목록
+dsgntcmptyn,character(1),Y,2,,,,지명경쟁여부
+arsltcmptyn,character(1),Y,2,,,,실적경쟁여부
+pqevalyn,character(1),Y,2,,,,PQ심사여부
+ntcedscrptyn,character(1),Y,2,,,,공고설명여부
+rsrvtnprceremkngmthdnm,text,Y,2,,,,예비가격재작성방법명
+maincnsttypresmptprce,bigint,,,,,,주공종추정가격
+orderplanuntyno,text,N,,,,,발주계획통합번호
+sucsfbidlwltrate,numeric,,,,,,낙찰하한율
+rgstdt,timestamp without time zone,,,,,,등록일시
+bfspecrgstno,text,N,,,,,사전규격등록번호
+sucsfbidmthdcd,text,Y,15,,,,낙찰방법코드
+sucsfbidmthdnm,text,Y,127,,,,낙찰방법명
+chgdt,timestamp without time zone,,,,,,변경일시
+dminsttofclemailadrs,text,N,,,,,수요기관담당자이메일주소
+indstrytylmtyn,character(1),Y,2,,,,업종제한여부
+cnstrtsitergnnm,text,Y,322,,,,공사현장지역명
+rgndutyjntcontrctyn,character(1),Y,2,,,,지역의무공동도급여부
+chgntcersn,text,N,,,,,변경공고사유
+rbidopengdt,timestamp without time zone,,,,,,재입찰개찰일시
+ciblaplyn,character(1),Y,2,,,,건설산업법적용대상여부
+mtltyadvcpsblyn,text,Y,2,,,,상호시장진출허용여부
+mtltyadvcpsblyncnstwknm,character(1),Y,9,,,,건설산업법적용대상공사명
+vat,bigint,,,,,,부가가치세
+indutyvat,bigint,,,,,,주공종부가가치세
+indstrytymfrcfldevlyn,character(1),Y,2,,,,주력분야평가여부
+bidwgrnteercptclsedt,timestamp without time zone,,,,,,입찰보증서접수마감일시
+bssamt,bigint,,,,,,기초금액
+bssamtopendt,timestamp without time zone,,,,,,기초금액공개일시
+rsrvtnprcerngbgnrate,numeric,,,,,,예비가격범위시작률
+rsrvtnprcerngendrate,numeric,,,,,,예비가격범위종료율
+evlbssamt,bigint,,,,,,평가기준금액
+dfcltydgrcfcnt,numeric,,,,,,난이도계수
+etcgnrlexpnsbssrate,numeric,,,,,,기타경비기준율
+gnrlmngcstbssrate,numeric,,,,,,일반관리비기준율
+prftbssrate,numeric,,,,,,이윤기준율
+lbrcstbssrate,numeric,,,,,,노무비기준율
+sftymngcst,bigint,,,,,,산업안전보건관리비
+sftychckmngcst,bigint,,,,,,안전관리비
+rtrfundnon,bigint,,,,,,퇴직공제부금비
+envcnsrvcst,bigint,,,,,,환경보전비
+scontrctpayprcepaygrntyfee,bigint,,,,,,하도급대금지급보증수수료
+mrfnhealthinsrprm,bigint,,,,,,국민건강보험료
+npninsrprm,bigint,,,,,,국민연금보험료
+rmrk1,text,N,,,,,비고1
+rmrk2,text,N,,,,,비고2
+odsnlngtrmrcprinsrprm,bigint,,,,,,노인장기요양보험료
+usefulamt,bigint,,,,,,가용금액
+inptdt,timestamp without time zone,,,,,,입력일시
+bidprcecalclayn,character(1),Y,2,1,,,입찰가격산식A여부
+bssamtpurcnstcst,text,,,,,,기초금액순공사비
+qltymngcst,bigint,,,,,,품질관리비
+qltymngcstaobjyn,character(1),Y,2,1,,,품질관리비A적용대상여부
+fnlsucsfamt,bigint,,,,,,최종낙찰금액
+fnlsucsfrt,numeric,,,,,,최종낙찰률
+fnlsucsfdate,date,,,,,,최종낙찰일자
+fnlsucsfcorpnm,text,N,,,,,최종낙찰업체명
+fnlsucsfcorpceonm,text,N,,,,,최종낙찰업체대표자명
+fnlsucsfcorpofclnm,text,N,,,,,최종낙찰업체담당자명
+fnlsucsfcorpbizrno,text,N,,,,,최종낙찰업체사업자번호
+fnlsucsfcorpadrs,text,N,,,,,최종낙찰업체주소
+fnlsucsfcorpcontacttel,text,N,,,,,최종낙찰업체전화번호
+cntrctcnclssttusnm,text,Y,2,,,,계약체결상태명
+bidwinrdcsnmthdnm,text,Y,5,,,,낙찰자결정방법명
+opengdate,date,,,,,,개찰일시
+opengtm,time without time zone,,,,,,개찰시간
+opengrsltdivnm,text,Y,3,,,,개찰결과구분명

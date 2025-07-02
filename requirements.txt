@@ -14,7 +14,7 @@ huggingface-hub==0.33.1
 idna==3.10
 Jinja2==3.1.6
 joblib==1.5.1
--e git+https://github.com/zoongahn/jodalroB-ML.git@c118c3445c0e6caa2f522a953511308d3e317141#egg=jodalroB_common
+-e git+ssh://git@github.com/zoongahn/jodalroB-ML.git@c118c3445c0e6caa2f522a953511308d3e317141#egg=jodalroB_common
 jpype1==1.5.2
 kiwisolver==1.4.8
 konlpy==0.6.0

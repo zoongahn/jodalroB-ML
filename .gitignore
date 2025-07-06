@@ -365,3 +365,6 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/pycharm,visualstudiocode,python,macos,windows
+
+
+notice_text_embeddings/
